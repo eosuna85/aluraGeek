@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="contenedor">
+    <header class="contenedor__header">
+      <img src="./img/Logo.png" alt="logo" class="logo">
+    </header>
+    <main>
+      <div class="contenedor__formulario">
+        <h2 class="titulo__formulario">AGREGAR PRODUCTO:</h2>
+        <form class="formulario">
+          <input class="input__formulario input__nombre" type="text" placeholder="nombre">
+          <input class="input__formulario input__precio" type="number" placeholder="precio">
+          <input class="input__formulario input__imagen" type="text" placeholder="imagen">
+          <div class="btn__contenedor">
+            <button class="btn btn__enviar" type="submit">Enviar</button>
+            <button class="btn btn__limpiar" type="button">Limpiar</button>
+          </div>
+        </form>
+      </div>
+      
+      <div class="contenedor__productos">
+        <h2>MIS PRODUCTOS:</h2>
+      </div>
+    </main>
+    <footer>
+      <img  class="logo" src="img/Logo.png">
+      <h3>Erika Osuna 2024</h3>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

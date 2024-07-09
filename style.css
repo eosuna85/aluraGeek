@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500&family=Poppins:wght@300;500&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor__header{
+    background-color: rgba(83, 0, 200, 1);
+}
+
+.logo {
+    width: 100%;
+    padding: 20px, 0px, 20px, 0px;
+}
+
+.contenedor__formulario {
+    margin-top: 2rem;
+    padding: 40px 0px 0px 0px;
+    gap: 40px;
+    opacity: 0px;
+}
+
+
+.titulo__formulario {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input__formulario {
+    width: 15rem;
+    height: 40px;
+    border: 3px solid rgba(3, 49, 140, 1);
+    outline: none;
+    border-radius: 4rem;
+}
+.input__formulario::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(3, 49, 140, 1);
+    padding: 5px;
+}
+
+.btn__contenedor {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.btn__enviar {
+    width: 164px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(3, 49, 140, 1);
+}
+
+
+.btn__limpiar {
+    width: 164px;
+    height: 35px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border: 3px solid rgba(3, 49, 140, 1);
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(3, 49, 140, 1);
+}
+/* card productos estilos */
+.contenedor__productos h2 {
+    text-align: center;
+    padding: 3rem;
+}
+.contenedor__card-js{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.contenedor__card {
+    padding: 10px;
+    gap: 10px;
+    width: 18rem;
+    height: 100%;
+    border-radius: 10px;
+    border: 3px solid #000;
+    opacity: 0px;
+    background-color: rgba(93, 4, 217, 1);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.img__producto {
+    width: 100%;
+    height: 70%;
+    /* padding: 5px; */
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.contenedor__card-contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.nombre__producto {
+    padding:5px;
+}
+
+.nombre__producto , .precio__producto{
+    color: #fff;
+}
+
+.img__eliminar {
+    width: 20px;
+}
+
+
+footer {
+    background-color: rgba(93, 4, 217, 1);
+}
+
+footer h3 , h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 16px;
+    text-align: center;
+    line-height: 2rem;
+    color: rgba(255, 255, 255, 1);
+}
